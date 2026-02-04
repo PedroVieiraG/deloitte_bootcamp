@@ -1,2 +1,2 @@
-# <h1 align="center"> deloitte_bootcampi </h1>
+#deloitte_bootcampi 
 Repositorio para mostrar as atividades realizadas durante o bootcamp oferecida pela Deloitte
