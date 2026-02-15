@@ -2,8 +2,6 @@
 
 Este repositório tem como finalidade centralizar e organizar todos os exercícios, atividades práticas e projetos desenvolvidos durante o **Bootcamp .NET da Deloitte**.
 
-Os conteúdos estão estruturados em pastas separadas por dias ou módulos, permitindo fácil navegação, versionamento e acompanhamento da evolução ao longo do aprendizado.
-
 ---
 
 ## 🎯 Objetivo do Repositório
