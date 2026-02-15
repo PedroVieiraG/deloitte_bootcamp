@@ -1,0 +1,35 @@
+services:
+  redis:
+    image: redis:latest
+    container_name: redis_minhaapi
+    ports:
+      - "6380:6379"  
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+    
+  postgres:
+    image: postgres:16
+    container_name: pg_minhaapi
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-minhaapi}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5433:5432"  
+    volumes:
+      - pgdata_estudos:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-minhaapi}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+volumes:
+  pgdata_estudos:
+    driver: local
+  redis-data:
+    driver: local
