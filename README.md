@@ -1,10 +1,10 @@
-# Deloitte Bootcamp .NET 🚀
+# Deloitte Bootcamp .NET 
 
 Este repositório tem como finalidade centralizar e organizar todos os exercícios, atividades práticas e projetos desenvolvidos durante o **Bootcamp .NET da Deloitte**.
 
 ---
 
-## 🎯 Objetivo do Repositório
+## Objetivo do Repositório
 * Armazenar todos os exercícios práticos do bootcamp.
 * Centralizar projetos de estudo em .NET.
 * Facilitar o acompanhamento da evolução técnica.
@@ -12,7 +12,7 @@ Este repositório tem como finalidade centralizar e organizar todos os exercíci
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 Abaixo está a organização das pastas conforme o progresso das aulas:
 
 
@@ -28,3 +28,8 @@ deloitte-bootcamp-dotnet/
 │   └── Projeto_de_Estudos
 ├── .gitignore
 └── README.md
+````
+--- 
+
+## Link para o projeto final:
+https://github.com/PedroVieiraG/-deloitte_bootcamp_projetoFinal#
